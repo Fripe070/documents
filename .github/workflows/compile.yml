@@ -22,5 +22,5 @@ jobs:
       - name: Upload PDFs
         uses: actions/upload-artifact@v7
         with:
-          name: pdfs
+          name: init-documents
           path: build/

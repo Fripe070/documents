@@ -6,5 +6,6 @@ Namely, it contains:
 
 - Statutes
 - Protocols
+- Reports
 
 Everything is, and will always be written, in Typst. All praise be upon our mighty Typst overlords.

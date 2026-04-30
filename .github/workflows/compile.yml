@@ -1,0 +1,26 @@
+name: Compile into PDFs
+
+on:
+  push:
+
+jobs:
+  build:
+    name: Compile into PDFs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Install Typst
+        uses: typst-community/setup-typst@v5
+
+      - name: Build PDFs
+        run: |
+          chmod +x compile.sh
+          ./compile.sh
+        
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v7
+        with:
+          name: pdfs
+          path: build/

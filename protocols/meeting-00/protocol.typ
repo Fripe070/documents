@@ -24,20 +24,23 @@
 = Formalia
 
 == Pull requestens högtidliga öppnande
-
 Pull requesten öppnades 18:12.
+
+\
 
 The pull request was opened at 18:12
 
 == Val av mötesordförande
-
 Simon Hedström kandiderade och valdes som mötesordförande.
+
+\
 
 Simon Hedström candidated and was elected as meeting president
 
 == Val av mötessekreterare
-
 Jonathan Nilsson Cullgert nominerades och valdes som mötessekreterare.
+
+\
 
 Jonathan Nilsson Cullgert was nominated and elected as meeting secretary
 
@@ -45,6 +48,8 @@ Jonathan Nilsson Cullgert was nominated and elected as meeting secretary
 Julle Juliusson Keuschnig kandiderar och valdes
 
 Mattias Mats Matthew Matte Orahem kandiderar och valdes
+
+\
 
 Julle Julius Keuschnig candidates and was elected
 
@@ -56,12 +61,18 @@ Mattias Mats Matthew Matte Orahem candidates and was elected
 == Pull requestens behöriga utlysande
 Ja
 
+\
+
 Yes
 
 == Anmälan av övriga frågor
 _Hoppade hit från 4.2.3_
 
-_Hoppade tillbaka 5.1_
+Lade till punk 5.1
+
+_Hoppade tillbaka till 5.1_
+
+\
 
 _Jumped here from 4.2.3_
 
@@ -69,6 +80,11 @@ _Jumped back to 5.1_
 
 == Godkännande av dagordning
 
+Dagordningen godkändes
+
+\
+
+The agenda was approved
 
 == Föregående mötesprotokoll
 404
@@ -76,17 +92,23 @@ _Jumped back to 5.1_
 = Rapporter
 
 == Bootloader
-Initialized saker. Har gjort templates, fixat github. kommer fixa github actions efter mötet.
+Initialized saker. Har gjort templates, fixat github. Kommer fixa github actions efter mötet.
+
+\
 
 Initialized things. Have done templates, fixed github. Will fix github actions after the meeting.
 
 == Kernel
 PR. Börjat planerat workshop för programmering 101.
 
+\
+
 PR. Started planning workshop for programming 101.
 
 == Övriga
 Arbetat med mail forwarding. Arbetat med IT-TV. Init workshops.
+
+\
 
 Worked with mail forwarding. Worked with IT-TV. Init workshops.
 
@@ -99,6 +121,8 @@ Worked with mail forwarding. Worked with IT-TV. Init workshops.
 
 Vi kom, vi såg, vi skrev.
 
+\
+
 We came, we saw, we wrote.
 
 == Seminarium
@@ -106,9 +130,13 @@ We came, we saw, we wrote.
 === Intro till programmering
 Går bra, har en mall av en plan. Studenter behöver hjälp med att göra uppgifter. Kanske sno datorsalar.
 
+\
+
 Goes well, have a template of a plan. Students need help with doing assignments. Maybe steal computer rooms.
 === Git
 Uppskattades förr i tiden. Har fått Williams gamla slides. Kan hållas i Kistan 2.0 beroende på intresse. Kan ha på Zoom, dela slides. 
+
+\
 
 Was appreciated before. Have gotten Williams old slides. Can be held in Kistan 2.0 depending on interest. Could be on Zoom, share slides.
 
@@ -118,10 +146,12 @@ Använd inte play knappen!! Hur kompilerar man C på Windows. Göra en liten CTF
 
 _Hoppade till 1.7_
 
+\
 
 Do not use the play button!! How to compile C on Windows. Make a small CTF on the website where you can learn the terminal.
 
 _Jumped to 1.7_
+
 = Övriga frågor
 
 == Hackerkvällar
@@ -131,9 +161,11 @@ Kommer ha hackerkvällar. Tider då vi kan sitta ner och jobba på saker. Borde 
 
 9 December på campus. Vi håller den själva så vi vet lite vad vi ska göra.
 
-_Jumped back from 1.7_
+\
 
-Will ha hackernights. Times when we can sit down and work on stuff. Should be every week, a bit like SMN you are available when you are available. 
+_Jumped here from 1.7_
+
+Will have hackernights. Times when we can sit down and work on stuff. Should be every week, a bit like SMN you are available when you are available. 
 
 9 of December on campus. We will hold it by ourselves so we learn what to do.
 = Slutformalia
@@ -145,6 +177,8 @@ Will ha hackernights. Times when we can sit down and work on stuff. Should be ev
 == Pull requestens mergande
 
 Pull requesten mergades 19:40
+
+\
 
 The pull request was merged at 19:40
 

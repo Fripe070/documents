@@ -18,7 +18,7 @@
 #align(center, [
   *ePRstein\#02*
 
-  *2026-04-28*
+  *#today.display()*
 
   *V01*
 ])

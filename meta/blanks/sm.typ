@@ -1,12 +1,7 @@
-#align(left, [
-  #figure(
-    image("/assets/init.svg", width: 14%),
-  )
-])
-
-#align(center, [
-  *Rapport \SM\#\<number\>*
-])
+#align(center)[
+  #figure(image("../../assets/init.svg", width: 14%))
+  *Rapport SM\#\<number\>*
+]
 
 = Swedish
 

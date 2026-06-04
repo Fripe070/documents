@@ -1,29 +1,11 @@
-#let today = datetime(year: 2026, month: 4, day: 28)
-#set heading(numbering: "1.")
-#set text(font: "IBM Plex Mono", size: 9pt)
+#import "../../meta/templates/protocol.typ": protocol, signature
 
-#let signature(signee, label) = stack(
-  spacing: 0.1cm,
-  signee,
-  box(line(length: 100%, stroke: 0.8pt)),
-  label
+#show: protocol.with(
+  "ePRstein#02",
+  datetime(year: 2026, month: 4, day: 28),
+  "V01"
 )
 
-#align(left, [
-  #figure(
-    image("/assets/init.svg", width: 14%),
-  )
-])
-
-#align(center, [
-  *ePRstein\#02*
-
-  *#today.display()*
-
-  *V01*
-])
-
-#set text(region: "se", lang: "en")
 = Formalia
 == Pull Requestens högtidliga öppnande
 Pull Requesten öppnades 18:09
@@ -207,7 +189,6 @@ We have talked about setting up Proxmox. It's a big project bet it would be wort
 
 Merged 19:59
 
-#linebreak()
 #grid(
   columns: (1fr, 1fr),
   gutter: 1cm,

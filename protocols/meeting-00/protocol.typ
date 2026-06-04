@@ -1,25 +1,10 @@
-#let today = datetime(year: 2025, month: 11, day: 28)
-#set heading(numbering: "1.")
-#set text(font: "IBM Plex Mono", size: 9pt)
+#import "../../meta/templates/protocol.typ": protocol, signature
 
-#let signature = (signee) => {
-  box(line(length: 100%, stroke: 0.8pt))
-  signee
-}
-
-#align(left, [
-  #figure(
-    image("/assets/init.svg", width: 14%),
-  )
-])
-
-#align(center, [
-  *PR\#0*
-
-  *#today.display()*
-
-  *Kistan 2.0*
-])
+#show: protocol.with(
+  "PR#00",
+  datetime(year: 2025, month: 11, day: 28),
+  "Kistan 2.0"
+)
 
 = Formalia
 

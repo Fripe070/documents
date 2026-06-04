@@ -1,7 +1,9 @@
-#align(center)[
-  #figure(image("/assets/init.svg", width: 14%))
-  *Rapport SM\#\<number\>*
-]
+#import "/meta/templates/sm.typ": sm
+
+#show: sm.with(
+  999,
+  datetime(year: 2000, month: 9, day: 12),
+)
 
 = Swedish
 

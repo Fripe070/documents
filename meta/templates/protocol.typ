@@ -6,12 +6,12 @@
 )
 
 #let protocol(title, date, location, body) = [
+  #set text(font: "IBM Plex Mono", size: 9pt, region: "se", lang: "sv")
+  #set heading(numbering: "1.")
+
   #metadata(title) <title>
   #metadata(date.display("[year]-[month]-[day]")) <date>
   #metadata(location) <location>
-
-  #set heading(numbering: "1.")
-  #set text(font: "IBM Plex Mono", size: 9pt, region: "se", lang: "sv")
 
   #align(center)[
     #figure(image("/assets/init.svg", width: 14%))

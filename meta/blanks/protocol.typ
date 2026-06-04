@@ -1,4 +1,4 @@
-#import "../../meta/templates/protocol.typ": protocol, signature
+#import "/meta/templates/protocol.typ": protocol, signature
 
 #show: protocol.with(
   "PR#<NN>",

@@ -14,7 +14,7 @@
   #set text(font: "IBM Plex Mono", size: 9pt, region: "se", lang: "sv")
 
   #align(center)[
-    #figure(image("../../assets/init.svg", width: 14%))
+    #figure(image("/assets/init.svg", width: 14%))
     *#title* \
     *#date.display()* \
     *#location*

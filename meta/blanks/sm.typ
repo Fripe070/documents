@@ -1,5 +1,5 @@
 #align(center)[
-  #figure(image("../../assets/init.svg", width: 14%))
+  #figure(image("/assets/init.svg", width: 14%))
   *Rapport SM\#\<number\>*
 ]
 

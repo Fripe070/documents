@@ -47,11 +47,11 @@
 == Pull Requestens avslutande
 
 
-/*#grid(
+#grid(
   columns: (1fr, 1fr),
   gutter: 1cm,
   signature("Ture Teknolog", "Ordförande"),
   signature("Ture Teknolog", "Sekreterare"),
   signature("Ture Teknolog", "Justerare / Rösträknare"),
   signature("Ture Teknolog", "Justerare / Rösträknare")
-)*/
+)

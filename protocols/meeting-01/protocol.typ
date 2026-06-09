@@ -1,28 +1,10 @@
-#let today = datetime(year: 2026, month: 2, day: 17)
-#set heading(numbering: "1.")
-#set text(font: "IBM Plex Mono", size: 9pt)
+#import "/meta/templates/protocol.typ": protocol, signature
 
-#let signature(signee, label) = stack(
-  spacing: 0.1cm,
-  signee,
-  box(line(length: 100%, stroke: 0.8pt)),
-  label
+#show: protocol.with(
+  "PR#01",
+  datetime(year: 2026, month: 2, day: 17),
+  "Kistan 2.0"
 )
-
-
-#align(left, [
-  #figure(
-    image("/assets/init.svg", width: 14%),
-  )
-])
-
-#align(center, [
-  *PR\#01*
-
-  *#today.display()*
-
-  *Kistan 2.0*
-])
 
 = Formalia
 
@@ -150,9 +132,6 @@ Saffaraj with SMN. Projector would be good. We have a lot of time, but we should
 
 == Pull Requestens avslutande
 Mötes avslutades 19:00
-
-/* Hacky solution, should probably use pad() or something instead. */
-#linebreak()
 
 #grid(
   columns: (1fr, 1fr),

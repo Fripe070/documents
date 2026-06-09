@@ -1,12 +1,9 @@
-#align(left, [
-  #figure(
-    image("/assets/init.svg", width: 14%),
-  )
-])
+#import "/meta/templates/sm.typ": sm
 
-#align(center, [
-  *Rapport \SM\#2*
-])
+#show: sm.with(
+  2,
+  datetime(year: 2026, month: 3, day: 24),
+)
 
 = Swedish
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-find . -name "*.typ" ! -wholename "./templates/*" -print0 | while IFS= read -r -d '' file; do
+find . -name "*.typ" ! -wholename "./meta/*" -print0 | while IFS= read -r -d '' file; do
     rel="${file#./}"
     output="./build/${rel%.typ}.pdf"
     echo "Compiling $file to $output"

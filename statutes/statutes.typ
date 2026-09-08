@@ -57,18 +57,23 @@ Nämndens namn är och skall vara *init*.
 == Nämndmedlem
 
 En nämndmedlem benämns Process.
-Som nämndmedlem räknas alla som är eller har varit aktiva medlemmar i *init*.
-Utesluten medlem räknas ej som nämndmedlem.
-
-== Aktiv nämndmedlem
-
-En aktiv nämndmedlem bör
-- bidra till underhållet och utvecklingen av sektionens digitala system
-- hjälpa till att anordna hackerkvällar och workshops
+Utesluten sektionsmedlem räknas ej som nämndmedlem.
 
 == Styrelse
 
-*inits* styrelse benämns "The Mainframe" och består av en ordförande, titulerad Bootloader, och en vice ordförande, titulerad Kernel.
+*inits* styrelse benämns "The Mainframe" och består av:
+#list(
+  [en ordförande, titulerad Bootloader],
+  [en vice ordförande, titulerad Kernel],
+  [ett valfritt antal styrelseledamöter $in [0,infinity)$, titulerade Drivers],
+)
+
+Uppdelning av ansvar till respektive styrelseledamot bestäms utav styrelsen.
+
+Alla styrelseledamöter förväntas närvara på pull requests, med rimliga undantag.
+
+Styrelsen ansvarar för att utföra besluten fattade vid pull requests.
+Styrelsen ansvarar även för att *init* följer sektionens stadgar och nämndens reglemente.
 
 === Bootloader
 
@@ -79,14 +84,20 @@ Bootloader representerar *init* utåt, samt kallar till pull requests.
 
 Kernel är Bootloaders ställföreträdare.
 
-= Möten och formalia
+=== Drivers
+
+Drivers väljs på pull requests.
+Alla nämndmedlemmar har rätt att kandidera och nominera till Driver.
+Drivers mandatperiod är tills början av nästa verksamhetsår.
+
+= Sammanträden och formalia
 
 == Pull request
 
 *inits* ordinarie beslutsmöten benämns *pull request*.
 *init* skall regelbundet hålla pull requests där frågor relevanta för *init* skall behandlas.
-Vid en pull request har aktiv nämndmedlem närvaro-, yttrande-, förslags- och rösträtt.
-Övriga nämndmedlemmar har närvarorätt.
+Vid en pull request har nämndmedlem närvaro-, yttrande-, förslags- och rösträtt.
+Övriga sektionsmedlemmar har närvarorätt.
 
 == Beslutande
 
@@ -115,7 +126,7 @@ Mötessekreterare och mötesordförande ansvarar för att protokollet justeras o
 == Kallelse <kallelse>
 
 Kallelse till en pull request skall anslås senast fyra dygn (96 timmar) innan mötet.
-En pull request får sammankallas med kortare varsel, men då skall Bootloader eller Kernel ha tagit personlig kontakt med samtliga av *inits* aktiva medlemmar för att meddela mötets tidpunkt.
+En pull request får sammankallas med kortare varsel, men då skall Bootloader eller Kernel ha tagit personlig kontakt med samtliga av *inits* medlemmar för att meddela mötets tidpunkt.
 Med personlig kontakt avses varken e-post, meddelande på telefonsvarare eller liknande, och ej heller brev eller fax.
 
 == Dagordning
@@ -125,7 +136,13 @@ Dagordning med tillhörande handlingar skall delges samtliga nämndmedlemmar sen
 
 == Beslutsmässighet
 
-En pull request är beslutsmässig om och endast om kallat i enlighet med @kallelse och minst tre aktiva medlemmar som inte är del av The Mainframe är närvarande.
+En pull request är beslutsmässig om och endast om:
+#list(
+  [den är kallad i enlighet med @kallelse],
+  [minst tre medlemmar som inte är del av The Mainframe är närvarande],
+  [minst hälften av The Mainframe är närvarande],
+  [och minst en av Bootloader eller Kernel är närvarande],
+)
 
 == Ändringar i reglementet
 

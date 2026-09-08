@@ -81,8 +81,9 @@ Kernel är Bootloaders ställföreträdare.
 
 = Möten och formalia
 
-== Möte
+== Pull request
 
+*inits* ordinarie beslutsmöten benämns *pull request*.
 *init* skall regelbundet hålla pull requests där frågor relevanta för *init* skall behandlas.
 Vid en pull request har aktiv nämndmedlem närvaro-, yttrande-, förslags- och rösträtt.
 Övriga nämndmedlemmar har närvarorätt.
@@ -91,41 +92,41 @@ Vid en pull request har aktiv nämndmedlem närvaro-, yttrande-, förslags- och 
 
 En pull request är *inits* högst beslutande organ.
 Dock måste *init* rätta sig efter SM:s och sektionsstyrelsens beslut.
+Vid personval sker sluten omröstning och relativ majoritet (flest röster) krävs.
 
 == Utlysning
 
-Pull request bör hållas minst en gång per månad, lov och tentamensveckor undantagna.
-Därutöver bör extra möten hållas för planering av enskilda tillställningar såsom workshops och hackerkvällar samt standup-möten där projektstatus gås igenom.
+En pull request skall hållas minst två gånger per termin.
+Extra pull requests bör sammankallas vid behov.
 
 == Protokoll
 
-Vid pull request skall beslutsprotokoll föras, vari skall ingå framställda och ej återtagna yrkanden, samt angivna protokollsanteckningar och reservationer.
+Vid varje pull request skall beslutsprotokoll föras, vari skall ingå framställda och ej återtagna yrkanden, samt angivna protokollsanteckningar och reservationer.
 Närvarolista skall förtecknas.
 Protokoll skall *alltid* skrivas i Typst; undantag från denna regel kan komma att resultera i uteslutning.
 
 == Justering
 
-Protokollet justeras av mötesordförande, mötessekreterare, samt två av mötet utsedda justeringspersoner.
-Protokollet bör anslås i justerat skick senast tio läsdagar efter mötet.
+Protokollet justeras av mötesordförande, mötessekreterare, samt två av pull requesten utsedda justeringspersoner.
+Protokollet skall anslås i justerat skick senast fjorton dygn (336 timmar) efter genomförd pull request.
 Dessutom skall protokollet delges sektionens medlemmar.
 Mötessekreterare och mötesordförande ansvarar för att protokollet justeras och anslås.
 
-== Kallelse
+== Kallelse <kallelse>
 
-Kallelse till pull request skall anslås senast fyra vardagar innan mötet.
-Möte får sammankallas med kortare varsel, men då skall Bootloader eller Kernel ha tagit personlig kontakt med samtliga av *inits* aktiva medlemmar för att meddela mötets tidpunkt.
+Kallelse till en pull request skall anslås senast fyra dygn (96 timmar) innan mötet.
+En pull request får sammankallas med kortare varsel, men då skall Bootloader eller Kernel ha tagit personlig kontakt med samtliga av *inits* aktiva medlemmar för att meddela mötets tidpunkt.
 Med personlig kontakt avses varken e-post, meddelande på telefonsvarare eller liknande, och ej heller brev eller fax.
 
 == Dagordning
 
-Dagordning med tillhörande handlingar skall delges samtliga nämndmedlemmar senast två arbetsdagar före mötet.
-Ärende som ej upptagits på dagordningen för mötet får ej avgöras vid detta möte såvida inte samtliga närvarande med beslutsrätt är ense om att beslut skall fattas.
+Dagordning med tillhörande handlingar skall delges samtliga nämndmedlemmar senast två dygn (48 timmar) före en pull requests start.
+Ärende som ej upptagits på dagordningen för pull requesten får ej avgöras vid den såvida inte samtliga närvarande med rösträtt är ense om att beslut skall fattas.
 
 == Beslutsmässighet
 
-En pull request är beslutsmässig om och endast om kallat i enlighet med 3.7 och minst hälften av de aktiva nämndmedlemmarna är närvarande.
-Vid personval sker sluten omröstning och relativ majoritet (flest röster) krävs.
+En pull request är beslutsmässig om och endast om kallat i enlighet med @kallelse och minst tre aktiva medlemmar som inte är del av The Mainframe är närvarande.
 
 == Ändringar i reglementet
 
-Vid förslag till ändring av reglementet skall förslaget godkännas vid två på varandra följande pull requests, med minst sju dagars mellanrum.
+Vid förslag till ändring av reglementet skall förslaget godkännas vid två på varandra följande pull requests, med minst sex dygns (144 timmars) mellanrum.

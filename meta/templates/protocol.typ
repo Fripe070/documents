@@ -8,6 +8,8 @@
 #let protocol(title, date, location, body) = [
   #set text(font: "IBM Plex Mono", size: 9pt, region: "se", lang: "sv")
   #set heading(numbering: "1.")
+  // Automatically add a footnote for links
+  #show link: it => it + if type(it.dest) == str { footnote(raw(it.dest)) }
 
   #metadata(title) <title>
   #metadata(date.display("[year]-[month]-[day]")) <date>

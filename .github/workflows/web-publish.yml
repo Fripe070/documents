@@ -1,0 +1,18 @@
+name: Trigger Website Rebuild
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.typ'
+      - 'assets/**'
+
+jobs:
+  trigger-web-build:
+    name: Trigger Netlify Build Hook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Build Hook
+        run: |
+          curl -s -X POST -d '{}' "${{ secrets.NETLIFY_BUILD_HOOK }}"
